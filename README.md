@@ -7,3 +7,35 @@ The application exposes two routes and runs on **port 8080**.
 
 ## 🚀 Project Structure
 
+├── app/
+│ └── app.py
+├── requirements.txt
+├── Dockerfile
+└── README.md
+
+
+---
+
+## 📁 Dockerfile Overview
+
+- Uses `amazonlinux` base image  
+- Installs Python3 & pip  
+- Installs dependencies from `requirements.txt`  
+- Copies the Flask application  
+- Exposes port `8080`  
+- Runs the Flask server  
+
+---
+
+## ✨ Author
+
+👤 **Sandeep Akula**  
+Simple Flask application containerized with Docker for practice and learning.
+
+---
+
+## 📜 License
+
+This project is free to use and modify.
+
+
