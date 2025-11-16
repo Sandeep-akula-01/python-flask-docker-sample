@@ -5,16 +5,6 @@ The application exposes two routes and runs on **port 8080**.
 
 ---
 
-## 🚀 Project Structure
-
-├── app/
-│ └── app.py
-├── requirements.txt
-├── Dockerfile
-└── README.md
-
-
----
 
 ## 📁 Dockerfile Overview
 
